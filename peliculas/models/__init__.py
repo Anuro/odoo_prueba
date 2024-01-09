@@ -1,1 +1,1 @@
-from . import Peli
+from . import peliculas
