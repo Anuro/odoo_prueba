@@ -7,7 +7,7 @@ class PeliculasCine(models.Model):
 
     name = fields.Char(string="Nombre", readonly = True)
     number = fields.Integer(string="Numero", default= 100)
-    total = fields.Float()
+    total = fields.Float(required= True)
     is_movie = fields.Boolean()
     category = fields.Selection([('terror1', 'Terror'),
                                 ('comedia2', 'Comedia')])
