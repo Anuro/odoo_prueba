@@ -16,7 +16,7 @@
         <menuitem id="serires_menu"
 				  name="Series ????"
 				  action ="Series_action"
-				  parent="sales.res_partner_menu_products"
+				  parent="sale.product_menu_catalog"
                   sequence="5"
 				  /> 
 		
