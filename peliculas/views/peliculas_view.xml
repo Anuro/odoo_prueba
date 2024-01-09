@@ -18,7 +18,7 @@
                 </form>
             </field>
         </record>
-
+<!-- 
         <record id="rutas_contacto_view_tree" model="ir.ui.view">
             <field name="name">rutas.contacto.view.tree"</field>
             <field name="model">rutas.contacto</field>
@@ -30,7 +30,7 @@
                     <field name="description"/>
                 </tree>
             </field>
-        </record>
+        </record> -->
 
     </data>
 </odoo>
