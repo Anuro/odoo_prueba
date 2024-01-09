@@ -7,13 +7,14 @@
     'depends': [
 
     ],
-    'author': 'Aldo Quintal',
+    'author': 'Aldo Mex',
     "license": "LGPL-3",
-    'category': 'Contactos',
+    'category': 'Peliculas',
     'description': '''
     Agrega un nuevo campo en la sección de peliculas donde permite seleccionar de un catálogo peliculas
     ''',
     'data': [
+        'views/peliculas_menu.xml',
 
     ],
     'images': ['static/description/icon.png'],
