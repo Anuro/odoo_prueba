@@ -3,7 +3,7 @@
 	<data>
 	
 		<record id="peliculas_action" model="ir.actions.act_window">
-            <field name="name">peliculas.action</field>
+            <field name="name">Menu de Peliculas</field>
             <field name="type">ir.actions.act_window</field>
             <field name="res_model">gsm.peliculas</field>
             <field name="view_mode">tree,form</field>

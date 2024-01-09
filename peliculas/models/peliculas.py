@@ -5,8 +5,8 @@ from odoo.exceptions import AccessError, UserError, ValidationError
 class PeliculasCine(models.Model):
     _name = "gsm.peliculas"
 
-    name = fields.Char()
-    number = fields.Integer()
+    name = fields.Char(string="Nombre", readonly = True)
+    number = fields.Integer(string="Numero", default= 100)
     total = fields.Float()
     is_movie = fields.Boolean()
     category = fields.Selection([('terror1', 'Terror'),
@@ -17,3 +17,4 @@ class PeliculasCine(models.Model):
     imagen = fields.Binary()
     text = fields.Text()
 
+    
