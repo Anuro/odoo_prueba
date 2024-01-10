@@ -24,7 +24,9 @@ class SeriesVarias(models.Model):
     def create (self, vals_lits):
         logging.info(f'lo que quiera poner ++++++++{self}')
         logging.info(f'lo que quiera poner ++++++++{vals_lits[0]}')
-
+        for add in vals_lits:
+            logging.info(add)
+            
 
 
         res = super(SeriesVarias, self).create(vals_lits)
