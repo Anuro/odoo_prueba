@@ -43,4 +43,7 @@ class SeriesVarias(models.Model):
     @api.onchange('is_movie')  
     def onchange_movie(self):
         logging.info(self)
+
+    def boton(self):
+        logging.info(ver)
         
