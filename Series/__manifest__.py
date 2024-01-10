@@ -15,6 +15,7 @@
     ''',
     'data': [
         'views/serires_menu.xml',
+        'views/serires_view.xml'
 
     ],
     'images': ['static/description/icon.png'],
