@@ -13,6 +13,7 @@
                         </group>
                         <group>
                             <field name="number"/>
+                            <button name="boton" string="cancelar" type="object" class="btn-primary"/>
                         </group>
                     </sheet>
                 </form>

@@ -45,5 +45,5 @@ class SeriesVarias(models.Model):
         logging.info(self)
 
     def boton(self):
-        logging.info(ver)
+        logging.info('ver')
         
