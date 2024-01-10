@@ -26,3 +26,8 @@ class SeriesVarias(models.Model):
 
         res = super(SeriesVarias, self).create(vals_lits)
         return res 
+    def write(self, vals_lits):
+        logging.info("lo que quieras part 2")
+
+        res = super().write(vals_lits)
+        return res 
