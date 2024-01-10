@@ -33,6 +33,6 @@ class SeriesVarias(models.Model):
         logging.info(f'lo que quiera poner parte 2**************{self}')
         logging.info(f'lo que quiera poner parte 2 **************{vals_lits}')
 
-        logging.info(f'*{vals_lits.get('name')}')
+        logging.info({vals_lits.get('name')})
         res = super().write(vals_lits)
         return res 
