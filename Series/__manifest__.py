@@ -16,7 +16,8 @@
     'data': [
         
         'views/series_view.xml',
-        'views/serires_menu.xml'
+        'views/serires_menu.xml',
+        'security/ir.model.access.csv'
 
     ],
     'images': ['static/description/icon.png'],
