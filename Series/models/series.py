@@ -1,6 +1,9 @@
 from odoo import _, api, fields, models, tools
 from odoo.osv import expression
 from odoo.exceptions import AccessError, UserError, ValidationError
+import logging 
+
+_logger= logging.getLogger(__name__) 
 
 class SeriesVarias(models.Model):
     _name = "gsm.series"
@@ -16,3 +19,10 @@ class SeriesVarias(models.Model):
     fecha = fields.Datetime()
     imagen = fields.Binary()
     text = fields.Text()
+
+    @api.model_create_multi  #funsion de afuersas para crear create
+    def create (self, vals_lits):
+        logging.info("lo que tu quieras")
+
+        res = super(SeriesVarias, self).create(vals_lits)
+        return res 
