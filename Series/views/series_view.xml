@@ -32,7 +32,7 @@
                     <field name="number"/>
                     <field name="name"/>
                     <field name="is_movie"/>
-                    <field name="category">
+                    <field name="category"/>
                 </tree>
             </field>
         </record> 
