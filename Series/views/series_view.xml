@@ -29,8 +29,8 @@
             <field name="priority" eval="15"/>
             <field name="arch" type="xml">
                 <tree string="Rutas Tree" create="1" edit="1" delete="1">
-                    <field name="number"/>
-                    <field name="name"/>
+                    <field name="number" optional="show"/>
+                    <field name="name" optional="show"/>
                     <field name="is_movie"/>
                     <field name="category"/>
                 </tree>
