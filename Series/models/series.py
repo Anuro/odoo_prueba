@@ -8,9 +8,9 @@ _logger= logging.getLogger(__name__)
 class SeriesVarias(models.Model):
     _name = "gsm.series"
 
-    name = fields.Char(string="Nombre")
+    name = fields.Char(string="Nombre",required= True)
     number = fields.Integer(string="Numero", default= 100)
-    total = fields.Float(required= True, readonly = True)
+    total = fields.Float(readonly = True)
     is_movie = fields.Boolean()
     category = fields.Selection([('terror1', 'Terror'),
                                 ('comedia2', 'Comedia')])
