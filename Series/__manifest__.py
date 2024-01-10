@@ -14,8 +14,9 @@
     Agrega un nuevo campo en la sección de series donde permite seleccionar de un catálogo series
     ''',
     'data': [
-        'views/serires_menu.xml',
-        'views/serires_view.xml'
+        
+        'views/series_view.xml',
+        'views/serires_menu.xml'
 
     ],
     'images': ['static/description/icon.png'],
