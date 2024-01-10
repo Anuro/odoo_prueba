@@ -10,28 +10,32 @@
                     <sheet>
                         <group>
                             <field name="name"/>
+                            <field name="category"/>
                         </group>
                         <group>
                             <field name="number"/>
+                            <field name="is_movie">
                             <button name="boton" string="cancelar" type="object" class="btn-primary"/>
+
                         </group>
                     </sheet>
                 </form>
             </field>
         </record>
-<!-- 
-        <record id="rutas_contacto_view_tree" model="ir.ui.view">
-            <field name="name">rutas.contacto.view.tree"</field>
-            <field name="model">rutas.contacto</field>
+
+        <record id="gsm_series_view_tree" model="ir.ui.view">
+            <field name="name">gsm.series.view.tree"</field>
+            <field name="model">gsm.series</field>
             <field name="priority" eval="15"/>
             <field name="arch" type="xml">
                 <tree string="Rutas Tree" create="1" edit="1" delete="1">
-                    <field name="ruta"/>
-                    <field name="dia"/>
-                    <field name="description"/>
+                    <field name="number"/>
+                    <field name="name"/>
+                    <field name="is_movie"/>
+                    <field name="category">
                 </tree>
             </field>
-        </record> -->
+        </record> 
 
     </data>
 </odoo>
