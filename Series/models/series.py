@@ -22,12 +22,15 @@ class SeriesVarias(models.Model):
 
     @api.model_create_multi  #funsion de afuersas para crear create
     def create (self, vals_lits):
-        logging.info("lo que tu quieras")
+        logging.info(f'lo que quiera poner ++++++++{self}')
+        logging.info(f'lo que quiera poner ++++++++{vals_lits}')
+
 
         res = super(SeriesVarias, self).create(vals_lits)
         return res 
     def write(self, vals_lits):
-        logging.info("lo que quieras part 2")
+                logging.info(f'lo que quiera poner parte 2**************{self}')
+        logging.info(f'lo que quiera poner parte 2 **************{vals_lits}')
 
         res = super().write(vals_lits)
         return res 
