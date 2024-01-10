@@ -26,7 +26,7 @@ class SeriesVarias(models.Model):
         logging.info(f'lo que quiera poner ++++++++{vals_lits[0]}')
         for add in vals_lits:
             logging.info(add)
-            
+
 
 
         res = super(SeriesVarias, self).create(vals_lits)
@@ -39,3 +39,8 @@ class SeriesVarias(models.Model):
         logging.info(f'lo que quiera poner parte 2**************{self.category}')
         res = super().write(vals_lits)
         return res 
+
+    @api.onchange('is_movie')  
+    def onchange_movie(self):
+        logging.info(self)
+        
