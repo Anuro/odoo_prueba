@@ -14,7 +14,7 @@
                         </group>
                         <group>
                             <field name="number"/>
-                            <field name="is_movie">
+                            <field name="is_movie"/>
                             <button name="boton" string="cancelar" type="object" class="btn-primary"/>
 
                         </group>
